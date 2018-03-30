@@ -1,0 +1,13 @@
+C:\git\DataGrepperV2\DataGrepperV2\bin\Debug\DataGrepperV2.exe.config
+C:\git\DataGrepperV2\DataGrepperV2\bin\Debug\DataGrepperV2.exe
+C:\git\DataGrepperV2\DataGrepperV2\bin\Debug\DataGrepperV2.pdb
+C:\git\DataGrepperV2\DataGrepperV2\obj\Debug\DataGrepperV2.csproj.CoreCompileInputs.cache
+C:\git\DataGrepperV2\DataGrepperV2\obj\Debug\DataGrepperV2.exe
+C:\git\DataGrepperV2\DataGrepperV2\obj\Debug\DataGrepperV2.pdb
+C:\git\DataGrepperV2\DataGrepperV2\obj\Debug\DataGrepperV2.csprojResolveAssemblyReference.cache
+C:\DataGrepperV2\DataGrepperV2\obj\Debug\DataGrepperV2.csproj.CoreCompileInputs.cache
+C:\DataGrepperV2\DataGrepperV2\obj\Debug\DataGrepperV2.exe
+C:\DataGrepperV2\DataGrepperV2\obj\Debug\DataGrepperV2.pdb
+C:\DataGrepperV2\DataGrepperV2\bin\Debug\DataGrepperV2.exe.config
+C:\DataGrepperV2\DataGrepperV2\bin\Debug\DataGrepperV2.exe
+C:\DataGrepperV2\DataGrepperV2\bin\Debug\DataGrepperV2.pdb
