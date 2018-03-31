@@ -26,16 +26,26 @@ namespace DataGrepperV2
 
         static void Main(string[] args)
         {
+            
             List<Filee> filees = new List<Filee>();
+            string path = ReadPath();
+            if (File.Exists(path))
+            {
+                Console.WriteLine("Loading Data...");
+                byte[] file = File.ReadAllBytes(path);
 
-            Console.WriteLine("Loading Data...");
-            byte[] file = File.ReadAllBytes("jji_project.001");
-
-            SignatureHeaderMarker(file, ref filees);
-            SignatureFooterMarker(file, ref filees);
-            GetBuffers(file, ref filees);
-            WriteCSV(ref filees);
-            WriteFile(ref filees);
+                SignatureHeaderMarker(file, ref filees);
+                SignatureFooterMarker(file, ref filees);
+                GetBuffers(file, ref filees);
+                WriteCSV(ref filees);
+                WriteFile(ref filees);
+            }
+            else
+            {
+                Console.WriteLine("File does not exists.");
+                Console.WriteLine("Program terminated");
+            }
+      
         }
 
         public static void SignatureHeaderMarker(byte[] file, ref List<Filee> filees)
@@ -171,6 +181,13 @@ namespace DataGrepperV2
                     w.Flush();
                 }
             }
+        }
+
+        static string ReadPath()
+        {  
+            Console.WriteLine("Drag and drop file here (or write full path)....");
+            string ret = Console.ReadLine().Replace('"', ' ');
+            return ret;
         }
     }
 }
